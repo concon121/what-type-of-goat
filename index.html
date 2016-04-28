@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <link href="main.css" rel="stylesheet" type="text/css"></link>
+    <link href='https://fonts.googleapis.com/css?family=Overlock:400,900' rel='stylesheet' type='text/css'>
+    <script src="jquery-min.js"></script>
+    <script src="jquery-ui.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="title">
+        <h1>What type of goat are you?</h1>
+      </div>
+      <div class="box">
+        <form name="whichGoat" action="#">
+          <div id="question1" class="question">
+            <div class="form_item">
+              <label for="q1">
+                What is your favourite type of grass?
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="green">
+                <input type= "radio" id="green" name="q1"/>
+                Green Grass
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="mowed">
+                <input type="radio" id="mowed" name="q1"/>
+                Freshly Mowed Grass
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="purple">
+                <input type="radio" id="purple" name="q1"/>
+                Purple Haze
+              </label>
+            </div>
+            <div class="form_item">
+              <button id="next1">NEXT</button>
+            </div>
+          </div>
+          <div id="question2" class="question" style="display:none">
+            <div class="form_item">
+              <label for="q2">
+                What is your favourite type of mountain?
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="rocky">
+                <input type= "radio" id="rocky" name="q2"/>
+                A Rocky Mountain
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="spooky">
+                <input type="radio" id="spooky" name="q2"/>
+                Spooky Mountains
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="sexy">
+                <input type="radio" id="sexy" name="q2"/>
+                Sexy Mountains
+              </label>
+            </div>
+            <div class="form_item">
+              <button id="next2">NEXT</button>
+            </div>
+          </div>
+          <div id="question3" class="question" style="display:none">
+            <div class="form_item">
+              <label for="q3">
+                What is your favourite type of beard?
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="gandalf">
+                <input type= "radio" id="gandalf" name="q3"/>
+                A top notch Gandlaf Beard!
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="foody">
+                <input type="radio" id="foody" name="q3"/>
+                A Beard you can store your food in
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="bald">
+                <input type="radio" id="bald" name="q3"/>
+                A bald beard?
+              </label>
+            </div>
+            <div class="form_item">
+              <button id="next3">NEXT</button>
+            </div>
+          </div>
+          <div id="question4" class="question" style="display:none">
+            <div class="form_item">
+              <label for="q4">
+                What is your favourite type of baaaaaaa?
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="ba">
+                <input type= "radio" id="ba" name="q4"/>
+                Baaaaa
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="baba">
+                <input type="radio" id="baba" name="q4"/>
+                BaaaBaaa
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="abab">
+                <input type="radio" id="abab" name="q4"/>
+                AbbbAbbb
+              </label>
+            </div>
+            <div class="form_item">
+              <button id="next4">NEXT</button>
+            </div>
+          </div>
+          <div id="question5" class="question" style="display:none">
+            <div class="form_item">
+              <label for="q4">
+                What is your favourite type of watermelon?
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="juicy">
+                <input type= "radio" id="juicy" name="q5"/>
+                A juicy watermelon
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="spherical">
+                <input type="radio" id="spherical" name="q5"/>
+                An offencively overly spherical watermelon
+              </label>
+            </div>
+            <div class="form_item">
+              <label for="grape">
+                <input type="radio" id="grape" name="q5"/>
+                I prefer grapes.
+              </label>
+            </div>
+            <div class="form_item">
+              <button id="next5">NEXT</button>
+            </div>
+          </div>
+        </form>
+        <div id="results" style="display:none">
+          You are a Maris Piper Potato.
+          <br />
+          <img src="result.jpeg"/>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
